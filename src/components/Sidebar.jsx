@@ -1,9 +1,9 @@
-import React from 'react'
-import LightbulbOutlineIcon from '@mui/icons-material/LightbulbOutline';
-import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
-import EditIcon from '@mui/icons-material/Edit';
-import ArchiveIcon from '@mui/icons-material/Archive';
-import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
+import React from "react";
+import LightbulbOutlineIcon from "@mui/icons-material/LightbulbOutline";
+import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
+import EditIcon from "@mui/icons-material/Edit";
+import ArchiveIcon from "@mui/icons-material/Archive";
+import DeleteOutlineIcon from "@mui/icons-material/DeleteOutline";
 
 export default function Sidebar() {
   return (
@@ -29,5 +29,5 @@ export default function Sidebar() {
         <span className="sidebar-text">Trash</span>
       </div>
     </div>
-  )
+  );
 }

@@ -1,11 +1,11 @@
-import React from 'react'
-import MenuIcon from '@mui/icons-material/Menu';
-import SearchIcon from '@mui/icons-material/Search';
-import RefreshIcon from '@mui/icons-material/Refresh';
-import ViewListIcon from '@mui/icons-material/ViewList';
-import SettingsIcon from '@mui/icons-material/Settings';
-import AppsIcon from '@mui/icons-material/Apps';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import React from "react";
+import MenuIcon from "@mui/icons-material/Menu";
+import SearchIcon from "@mui/icons-material/Search";
+import RefreshIcon from "@mui/icons-material/Refresh";
+import ViewListIcon from "@mui/icons-material/ViewList";
+import SettingsIcon from "@mui/icons-material/Settings";
+import AppsIcon from "@mui/icons-material/Apps";
+import AccountCircleIcon from "@mui/icons-material/AccountCircle";
 
 export default function Navbar() {
   return (
@@ -36,5 +36,5 @@ export default function Navbar() {
         <AccountCircleIcon className="hover navbarIcons" />
       </div>
     </nav>
-  )
+  );
 }
