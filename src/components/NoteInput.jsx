@@ -91,12 +91,19 @@ export default function NoteInput({ onAdd }) {
               <MoreVertIcon className="icon hover" />
             </div>
             <button
-              className="close-btn"
-              type="button"
-              onClick={() => setExpanded(false)}
-            >
-              Close
-            </button>
+  className="close-btn"
+  type="button"
+  onClick={() => {
+    if (title.trim() || content.trim()) {
+      onAdd({ title, content });
+      setTitle('');
+      setContent('');
+    }
+    setExpanded(false);
+  }}
+>
+  Close
+</button>
           </div>
         )}
       </form>
